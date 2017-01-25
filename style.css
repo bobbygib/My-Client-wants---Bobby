@@ -1,6 +1,7 @@
 
 .header {
 	height: 37vh;
+	padding: 0 0 0 0;
 
 }
 
@@ -19,6 +20,13 @@
 	margin: -103px 0 0 -200px;
 }
 
-.navagation {
-	background-color: #fff;
+.navbar {
+	margin-bottom: 0;
+	box-shadow: 2px 2px 2px #888;
+	z-index: 1;
 }
+?8
+.glyphicon.glyphicon-menu-hamburger{
+	font-size:3em;
+}
+
