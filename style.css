@@ -1,0 +1,24 @@
+
+.header {
+	height: 37vh;
+
+}
+
+.hImg {
+	text-align: center;
+	position: relative;
+	height:100%;
+}
+
+.hImg img {
+	width: 400px;
+	height: 206px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin: -103px 0 0 -200px;
+}
+
+.navagation {
+	background-color: #fff;
+}
