@@ -6,8 +6,6 @@ I hope you're doing well.
 Just heard from the client.
 They're willing to pay us $25/hr to build a site with the following requirements.
 
-
-
 -A half-page-height header with a grey background image.
 -A 6 column layout with images of their product.
 -A short navbar which is always collapsed and slides down to reveal four items
@@ -20,3 +18,16 @@ They're willing to pay us $25/hr to build a site with the following requirements
 Is that cool?
 Let me know ASAP.
 Thanks!
+
+Code to use:x
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+
+
+<div class="row">
+	<div class="col-md-2"><strong>Ticket 1</strong></div>
+	<div class="col-md-2"><strong>Ticket 2</strong></div>
+

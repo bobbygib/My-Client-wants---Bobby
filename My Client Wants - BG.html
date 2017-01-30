@@ -18,33 +18,120 @@
 	<link rel="stylesheet" href="./style.css" >
 </head>
 <body>
-		<div class="pos-f-t">
+	<div class="pos-f-t">
+		<nav class="navbar navbar">
+		  <button class="navbar-toggler" type="btn" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+		     <span class="glyphicon glyphicon-menu-hamburger" style=" color: #000"></span>
+		  </button>
+		</nav>
 		  <div class="collapse" id="navbarToggleExternalContent">
 		    <div class="bg p-4">
 		      <ul class="navbar-nav">
 			      <li class="nav-item active">
-						<ul class="nav navbar-nav">
-       				<li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li>
-        			<li><a href="https://www.google.com/#q=greyhound">Link</a></li>
-        			<li><a href="https://www.google.com/#q=greyhound">Link</a></li>
-        			<li><a href="https://www.google.com/#q=greyhound">Link</a></li>
+							<ul class="nav navbar-nav">
+	       				<li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li>
+	        			<li><a href="https://www.google.com/#q=greyhound">Link</a></li>
+	        			<li><a href="https://www.google.com/#q=greyhound">Link</a></li>
+	        			<li><a href="https://www.google.com/#q=greyhound">Link</a></li>
+	        		</ul>
+        		</li>
+        	</ul>
 		    </div>
 		  </div>
-		  <nav class="navbar navbar">
-		    <button class="navbar-toggler" type="btn" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="glyphicon glyphicon-menu-hamburger" style=" color: #000"></span>
-		    </button>
-		  </nav>
-		</div>
+	<!--	Had many issues with nav. nav bar covers links. I siwtched the links from below it to above it. Solved issues with links still overlaps -->
+		  </button>
+		</nav>
 	</div>
 	<div class="jumbotron">
 		<div class="header">
 			<div class="hImg">
-				<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/ghb.jpg" alt="Greyhound Bus" class="img-rounded">
+				<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/ghb.jpg" alt="Gryhound Bus" class="img-rounded">
 			</div>
 		</div>
 	</div>
 	<div class="container">
-		<h2> Products </h2>
+		<div class="productStyle">
+		<!-- could not get thumbnail bootstrap to fit in 6 colums. each would move down a row. Used simple images. -->
+			<h2> Products </h2>
+			<div class="row">
+	  			<div class="col-xs-2"></div>
+	  			<div class="col-xs-2">
+	  				<div class="panel">
+		    			<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/gb1.jpg" href="https://www.google.com/#q=greyhound" 
+		    			class="panel" alt="Greyhound Seat 1" width="175" height="120">
+		  			</div>
+		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  		</div>
+		  		<div class="col-xs-2">
+	  				<div class="panel">
+		    			<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/gb2.jpg" href="https://www.google.com/#q=greyhound" class="panel" alt="Greyhound Seat 2" width="175" height="120">
+		  			</div>
+		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  		</div>
+		  		<div class="col-xs-2">
+	  				<div class="panel">
+		    			<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/gb3.jpg" href="https://www.google.com/#q=greyhound" class="panel" alt="Greyhound Seat 3" width="175" height="120">
+		  			</div>
+		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  		</div>
+		  		<div class="col-xs-2">
+	  				<div class="panel">
+		    			<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/gb4.jpg" href="https://www.google.com/#q=greyhound" class="panel" alt="Greyhound Seat 4" width="175" height="120">
+		  			</div>
+		  			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		  		</div>
+	  			<div class="col-xs-2"></div>
+
+	  			<!-- offfset
+							for thumbnails use panel
+							<div class="panel">
+								<img src="">
+							</div>
+
+	  			 -->
+	  		</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="didYouKnow">	
+				<div class="jumbotron">
+					<h1>Greyhound is the ideal</br>form of transportation</h1>
+					</br>
+					<p>All Greyhound drivers are professional, safe, and helpful!</p>
+					</br>
+					<div class="gifs1">
+						<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/CF1.gif" alt="angry bus driver" class="img-rounded">
+					</div>
+					<div class="gifs1">
+						<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/CF2.gif" alt="angry bus driver" class="img-rounded">
+					</div>
+					<div class="gifs1">
+						<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/CF3.gif" alt="angry bus driver" class="img-rounded">
+					</div>
+					<div class="largeBreak"></div>
+					<h1>Statistics show walking is a very dangerous mode of transportation</h1>
+
+					<div class="gifs1">
+						<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/hitbybus.gif" alt="People being hit by bus" class="img-rounded">
+					</div>
+					<div class="gifs1">
+						<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/woa.gif" alt="Near miss with bus" class="img-rounded">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  Resizing was a large issues with all images.from what i understand if the style is declared in the HTML doc it should over write all other CSS rules  -->
+		<div class="container">
+			<div class="parentBtn">
+				<button type="button" class="btn btn-success btn-large ">BUY NOW!</button>
+			</div>
+		<div class="footer">
+			<div class="jumbotron">
+			<h3>Copyright 2017 Greyhound&copy;</h3>
+			</br>
+			<p>Our fearless leader</p>
+			<img src="file:///Users/bobby/Workspace/Code%20Craft/Week%203/My%20Client%20wants%20-%20Bobby/img/fl.jpg" alt="Fearless leader" class="img-circle">
+			</div>
+		</div>
 </body>
 </html>
